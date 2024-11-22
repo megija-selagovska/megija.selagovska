@@ -1,0 +1,55 @@
+h1 {
+    color: violet;
+}
+#main-container {
+    background-color: white ;
+    display: grid; 
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px 150px ;
+}
+#item1{
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+#item2{
+    background-color: yellow;
+    
+}
+#item3{
+    background-color: yellow;
+}
+#item4{
+    background-color: yellow;
+}
+#item5{
+    background-color: yellow;
+}
+#item6{
+    background-color: peru;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#item7{
+    background-color: teal;
+    grid-column-start:3;
+    grid-column-end:5;
+}
+#item8{
+background-color: red;
+grid-column-start: 1;
+grid-column-end: 4;
+
+}
+#item9{
+    background-color: olivedrab;
+}
+#item10{
+    background-color:purple;
+}
+#item11{
+    background-color: lightcoral;
+}
+
+
