@@ -1,0 +1,54 @@
+#main-container {
+    background-color: white;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(5,100px);
+}
+#item1 {
+    background-color: pink;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#item2 {
+    background-color: pink;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#item3 {
+background-color: pink;
+grid-column: 3/4;
+ 
+}
+
+#item4 {
+background-color: pink;
+grid-column: 4/5;
+}
+
+#item5 {
+    background-color: pink;
+    grid-column: 1/2;
+}
+
+#item6 {
+    background-color: pink;
+    grid-column: 2/3;
+}
+
+#item7 {
+    background-color: pink;
+    grid-column: 3/4;
+}
+
+#item8 {
+    background-color: pink;
+    grid-column: 4/5;
+}
+
+#item9 {
+    background-color: pink;
+    grid-column: 5/6;
+}
